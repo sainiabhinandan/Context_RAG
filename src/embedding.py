@@ -59,11 +59,11 @@ class EmbeddingPipeline:
 
 
 # Example usage
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-    docs= load_all_documents("..\\data")
-    embedder=EmbeddingPipeline(chunk_size = 1000, chunk_overlap = 200)
-    chunks =embedder.doc_chunker(docs)
-    embeddings= embedder.chunk_embedder(chunks)
-    print("example embedding ", embeddings[1] if len(embeddings)>0 else None)
+#     docs= load_all_documents("..\\data")
+#     embedder=EmbeddingPipeline(chunk_size = 1000, chunk_overlap = 200)
+#     chunks =embedder.doc_chunker(docs)
+#     embeddings= embedder.chunk_embedder(chunks)
+#     print("example embedding ", embeddings[1] if len(embeddings)>0 else None)
     
