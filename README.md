@@ -1,7 +1,6 @@
-# rag_with_langchain
 Learning to use rag with Langchain and creating data pipeline for embedding and data parsing :)
 
-# 📚 RAG with LangChain, Faiss, and Groq
+# 📚 RAG with LangChain, Faiss and LLM Model
 
 This repository contains a simple, local implementation of a **Retrieval-Augmented Generation (RAG)** system built using the **LangChain** ecosystem (specifically its document loaders and text splitters), **Sentence Transformers** for embeddings, and **Faiss** for efficient vector storage and retrieval. The system uses a Large Language Model (LLM) to summarize retrieved context and answer user queries.
 
